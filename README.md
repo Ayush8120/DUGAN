@@ -16,10 +16,14 @@ The noises added were :
 Similarly the Test Dataset also needs to be createdr
 
 Repository Structure:
+
+images:
+  -train
+  -test
   -scripts
     -train.py
     -test.py
-    -organize_your_dataset
+    -organize_your_dataset [to be used only if you have structure of a readily available dataset similar to that of GoPro dataset]
   -deblurgan
     -layer_utils.py
     -losses.py
