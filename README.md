@@ -14,11 +14,15 @@
 
 ## Model Architecture Used:
 
+
+
 ![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-01-16-image.png)
 
 
 
 #### Explaination of Generator Model:
+
+
 
 <img src="file:///C:/Users/Ayush%20Agrawal/AppData/Roaming/marktext/images/2021-04-10-16-13-01-image.png" title="" alt="" width="576">
 
@@ -39,6 +43,8 @@
 
 
 #### Explaination of Discriminator Model:
+
+
 
 ![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-17-50-image.png)
 
@@ -70,15 +76,21 @@ Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 
 #### Overall DUGAN Loss:
 
+
+
 ![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-25-53-image.png)
 
 #### Perceptual Reconstruction Loss:
+
+
 
 ![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-27-16-image.png)
 
 > Ouput taken from conv3_3 layer 
 
 #### Wasserstein Distance:
+
+
 
 ![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-37-31-image.png)
 
@@ -163,14 +175,6 @@ x and y can be treated as hyper parameters and thus will vary model to model, de
 Please access the training and testing datsets used from here:
 
 [Biyani – Google Drive](https://drive.google.com/drive/folders/1R0-X3xl6S7HzZ3IIRJa1J6VVUT6QuPbq?usp=sharing) :Extract them to your directory under ./images folder
-
-
-
-
-
-
-
-
 
 **![](https://lh3.googleusercontent.com/-epsOEpVqEUgkUiw29JLzlWjA95NFbljtvzqZxoN-mnZKsK8aZwMZVLgiaXVVWHkDAfi921p7-f56lv2PpyP_KGk_IxpeK48eEKGbz7d_GPKG5_RsMzU1i_SWP7EO_-DeAPuSozk)** 
 
