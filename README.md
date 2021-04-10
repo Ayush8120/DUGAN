@@ -170,7 +170,9 @@ Please access the training and testing datsets used from here:
 
 **![](https://lh3.googleusercontent.com/-epsOEpVqEUgkUiw29JLzlWjA95NFbljtvzqZxoN-mnZKsK8aZwMZVLgiaXVVWHkDAfi921p7-f56lv2PpyP_KGk_IxpeK48eEKGbz7d_GPKG5_RsMzU1i_SWP7EO_-DeAPuSozk)** 
 
-<mark>Target Image</mark>                             <mark>Blurred Input</mark>                   <mark>Deblurred Output from generator</mark>
+###### <mark><u>*Target Image*</u></mark>                             <mark>*<u>Blurred Input</u>*</mark>                  <mark><u>*Deblurred Output from generator*</u></mark>
+
+
 
 Sample Output: <u>when tried with salt and pepper noise</u>
 
