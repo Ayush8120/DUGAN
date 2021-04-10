@@ -14,17 +14,13 @@
 
 ## Model Architecture Used:
 
-
-
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-01-16-image.png)
-
-
+**![](https://lh4.googleusercontent.com/qvOizGJWNjBmkinDzuO2BxIVGd8NmnDD3rDczSylJ8uqeQqW7Fi-wYcnvJYLwPdtw4ceEhc6eOE8NEQEYAYEuPFTrLVPUZmoaB1N0hcEqR-dBjk0l8Az7APkFWlOSJ5XV6_zo1yk)**
 
 #### Explaination of Generator Model:
 
 
 
-<img src="file:///C:/Users/Ayush%20Agrawal/AppData/Roaming/marktext/images/2021-04-10-16-13-01-image.png" title="" alt="" width="576">
+**![](https://lh4.googleusercontent.com/uC4lEgZFqnTz0g9CNe7ibI4Ic14fh5ZoII9kOFawoZt4U6vDNnI_gJ9Z-uROJyITOkXvzZyYyc_WjSTMgl7HTWEGy1MQLu91Y5pijXvgulftWleMb8xgZNy_M9ozqUx7N3emPqgV)**
 
 > Residual Block: (Conv2D + Batch Normalization[with : ReLu]) x2
 > 
@@ -44,9 +40,7 @@
 
 #### Explaination of Discriminator Model:
 
-
-
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-17-50-image.png)
+**![](https://lh6.googleusercontent.com/5julg8IfmJj6XLd9JRcsdlOMJ7jlahgNnBkcEBWJCgCd-ItJCD9fts-BCDgg1r3LS0hf_ApRILARFeDsf37uY9W3y8pbwdxjjqVOSGaa0_N2HNDOL8Q0nNemrzpKfuZ5_Nf_rHVD)**
 
 > lr denotes : Leaky ReLu Activation
 > 
@@ -78,21 +72,19 @@ Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 
 
 
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-25-53-image.png)
+**![](https://lh6.googleusercontent.com/byHPEauHSWG9VwV6cTJOoin9e7AvGUYdEIY9txkHIidpV-OOEAM280fLpbZbbejf3Ck5EW3ukLBHIVyV-z0r8VQS8Zc4H58YDEaF_P-gXmfG7lvTTe5-WxvkVvhvDllFcxcIArOH)**
 
 #### Perceptual Reconstruction Loss:
 
 
 
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-27-16-image.png)
+**![](https://lh5.googleusercontent.com/XkPa3nOTpNwCUNIlHyjJxSs3hevS7g22yB2vOyOsgFO06TaBhj6MemM04TwPLFAyFLiN0k4_Y7Z_jz-Nq1-kKGUXYRgXLhRDYJk8YjGOteuIzZSIZ-FbM-yAjvckr0bN1KiVVKnU)**
 
 > Ouput taken from conv3_3 layer 
 
 #### Wasserstein Distance:
 
-
-
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-37-31-image.png)
+**![](https://lh5.googleusercontent.com/GNz1cp7o7dfvcaxVJRhnoFFx8_jg1EXeZiKLA2ij2LLYBb8ow_xMwk7NDAnIpnhdaXMWdxJ7E8TRdqz1CSqlUqNYd7lPcA2w1gn4UHShcB8VlOUGsMoXqgwbtJ7eAB-FgOZDgt5c)**
 
 > Unlike the paper, we used Wasserstein distance rather than non-saturating generative adversarial loss.
 
@@ -100,7 +92,7 @@ Lga : is chosen as the Wasserstein Distance
 
 #### Per Pixel Euclidian Distance:
 
-![](C:\Users\Ayush%20Agrawal\AppData\Roaming\marktext\images\2021-04-10-16-26-56-image.png)
+**![](https://lh4.googleusercontent.com/ZUGPm3VzIi713cbGaq3jQ3KutttOJ_-hLAB8VDHXtqfGV94pqrb-w222gA3rGAD5G2dY6iXwM3bCXWXcXmJvmRlqSc96ZXzHQ6l0cf0POiVAvS-A7w3RPXr-ILOXI6Q-e8Ve3qgK)**
 
 x and y can be treated as hyper parameters and thus will vary model to model, depending on our training dataset
 
