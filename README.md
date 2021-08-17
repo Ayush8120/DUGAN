@@ -166,7 +166,7 @@ x and y can be treated as hyper parameters and thus will vary model to model, de
 
 Please access the training and testing datsets used from here:
 
-[Biyani – Google Drive](https://drive.google.com/drive/folders/1R0-X3xl6S7HzZ3IIRJa1J6VVUT6QuPbq?usp=sharing) :Extract them to your directory under ./images folder
+[Biyani – Google Drive](https://drive.google.com/drive/folders/1XhVh2tKQT1pyuRKJ-HH9yByMLW0ZtJHT) :Extract them to your directory under ./images folder
 
 **![](https://lh3.googleusercontent.com/-epsOEpVqEUgkUiw29JLzlWjA95NFbljtvzqZxoN-mnZKsK8aZwMZVLgiaXVVWHkDAfi921p7-f56lv2PpyP_KGk_IxpeK48eEKGbz7d_GPKG5_RsMzU1i_SWP7EO_-DeAPuSozk)** 
 
