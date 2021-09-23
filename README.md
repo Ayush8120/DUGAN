@@ -16,7 +16,8 @@
 
 **![](https://lh4.googleusercontent.com/qvOizGJWNjBmkinDzuO2BxIVGd8NmnDD3rDczSylJ8uqeQqW7Fi-wYcnvJYLwPdtw4ceEhc6eOE8NEQEYAYEuPFTrLVPUZmoaB1N0hcEqR-dBjk0l8Az7APkFWlOSJ5XV6_zo1yk)**
 
-#### Explaination of Generator Model:
+Explaination of Generator Model:
+------
 
 
 
@@ -38,7 +39,7 @@
 
 
 
-#### Explaination of Discriminator Model:
+Explaination of Discriminator Model:
 ----
 
 **![](https://lh6.googleusercontent.com/5julg8IfmJj6XLd9JRcsdlOMJ7jlahgNnBkcEBWJCgCd-ItJCD9fts-BCDgg1r3LS0hf_ApRILARFeDsf37uY9W3y8pbwdxjjqVOSGaa0_N2HNDOL8Q0nNemrzpKfuZ5_Nf_rHVD)**
@@ -49,7 +50,7 @@
 > 
 > D refers to the dense layer 
 
-#### Slight Changes made :
+Slight Changes made :
 --------
 
 > -Removal of SC layer written in discriminator model
@@ -62,7 +63,7 @@
 
 
 
-## Loss Function Used :
+Loss Function Used :
 -------
 
 The usage of pixel loss functions often leads to perpectually unsatisfying solutions with overly smooth textures.
@@ -71,20 +72,17 @@ Additionaly, the quality of the image features can be improved by the perceptual
 
 Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 
-#### Overall DUGAN Loss:
-
-
+Overall DUGAN Loss:
+------
 
 **![](https://lh6.googleusercontent.com/byHPEauHSWG9VwV6cTJOoin9e7AvGUYdEIY9txkHIidpV-OOEAM280fLpbZbbejf3Ck5EW3ukLBHIVyV-z0r8VQS8Zc4H58YDEaF_P-gXmfG7lvTTe5-WxvkVvhvDllFcxcIArOH)**
 
 #### Perceptual Reconstruction Loss:
 ------
 
-
-
 **![](https://lh5.googleusercontent.com/XkPa3nOTpNwCUNIlHyjJxSs3hevS7g22yB2vOyOsgFO06TaBhj6MemM04TwPLFAyFLiN0k4_Y7Z_jz-Nq1-kKGUXYRgXLhRDYJk8YjGOteuIzZSIZ-FbM-yAjvckr0bN1KiVVKnU)**
 
-> Ouput taken from conv3_3 layer 
+Ouput taken from conv3_3 layer 
 
 #### Wasserstein Distance:
 -----
