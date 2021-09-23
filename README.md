@@ -39,6 +39,7 @@
 
 
 #### Explaination of Discriminator Model:
+----
 
 **![](https://lh6.googleusercontent.com/5julg8IfmJj6XLd9JRcsdlOMJ7jlahgNnBkcEBWJCgCd-ItJCD9fts-BCDgg1r3LS0hf_ApRILARFeDsf37uY9W3y8pbwdxjjqVOSGaa0_N2HNDOL8Q0nNemrzpKfuZ5_Nf_rHVD)**
 
@@ -49,6 +50,7 @@
 > D refers to the dense layer 
 
 #### Slight Changes made :
+--------
 
 > -Removal of SC layer written in discriminator model
 > 
@@ -61,6 +63,7 @@
 
 
 ## Loss Function Used :
+-------
 
 The usage of pixel loss functions often leads to perpectually unsatisfying solutions with overly smooth textures.
 
@@ -75,6 +78,7 @@ Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 **![](https://lh6.googleusercontent.com/byHPEauHSWG9VwV6cTJOoin9e7AvGUYdEIY9txkHIidpV-OOEAM280fLpbZbbejf3Ck5EW3ukLBHIVyV-z0r8VQS8Zc4H58YDEaF_P-gXmfG7lvTTe5-WxvkVvhvDllFcxcIArOH)**
 
 #### Perceptual Reconstruction Loss:
+------
 
 
 
@@ -83,6 +87,7 @@ Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 > Ouput taken from conv3_3 layer 
 
 #### Wasserstein Distance:
+-----
 
 **![](https://lh5.googleusercontent.com/GNz1cp7o7dfvcaxVJRhnoFFx8_jg1EXeZiKLA2ij2LLYBb8ow_xMwk7NDAnIpnhdaXMWdxJ7E8TRdqz1CSqlUqNYd7lPcA2w1gn4UHShcB8VlOUGsMoXqgwbtJ7eAB-FgOZDgt5c)**
 
@@ -91,14 +96,17 @@ Thus here, Eucidian Loss is combined with perceptual reconstrction loss
 Lga : is chosen as the Wasserstein Distance
 
 #### Per Pixel Euclidian Distance:
+-------
 
 **![](https://lh4.googleusercontent.com/ZUGPm3VzIi713cbGaq3jQ3KutttOJ_-hLAB8VDHXtqfGV94pqrb-w222gA3rGAD5G2dY6iXwM3bCXWXcXmJvmRlqSc96ZXzHQ6l0cf0POiVAvS-A7w3RPXr-ILOXI6Q-e8Ve3qgK)**
 
 x and y can be treated as hyper parameters and thus will vary model to model, depending on our training dataset
 
  Flow Of Work:
+ -------
 
 ## <u><mark>DATASET CREATION/IMPORTING:</mark></u>
+-----
 
 - Extraction of Clean Datset from the source Adding various UAV Imagery Noises to it and saving it to 'A' folder 
   
